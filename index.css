@@ -1,0 +1,128 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("./img/z4205268320495_34c58ef2f6435f05ccedd1014f7e8f1a.jpg");
+}
+.img-logo{
+  width:300px;
+  margin-top: -6%;
+  margin-left: -6%;
+
+}
+.container{
+
+  background-color: black;
+  height: 100%;
+  padding-bottom: 5%;
+}
+.top-nav{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.btn-navbar{
+  margin-top: 10%;
+  padding: 5px;
+  background-color: black;
+  color: gray;
+  border: none;
+}
+.img-title{
+  width: 100%;
+  height: 100%;
+  margin-top: -6%;
+}
+.container-img{
+  text-align: center;
+}
+.neon{
+  margin-top: 5%;
+  font-size: 30px;
+  color: #F3D880;
+  font-family: 'Noto Sans Lao', sans-serif;
+}
+.col-10{
+  margin: auto;
+  position: relative;
+}
+.content-container{
+  display: flex;
+  margin-top: 7%;
+}
+.content-1-container{
+  width: 60%;
+}
+.content-container h4{
+  color: #F3D880;
+  font-size: 30px;
+  margin-top: 2%;
+ 
+}
+.input-content{
+  margin-left: 5%;
+  text-align: center;
+}
+.content-container p{
+  color: rgb(213, 209, 209);
+  
+}
+.input{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10%;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.btn-input{
+  
+  background-color: #F3D880;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 5%;
+}
+.btn-send{
+  width: 20%;
+  background-color: #F3D880;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+.lorem{
+  font-size: 10px;
+  margin-top: 13%;
+}
+.title-2{
+  font-size: 10px;
+  color: #F3D880;
+  margin-top: 2%;
+}
+.describe{
+  position: absolute;
+  top: 21%;
+  left: -3%;
+  width: 300px;
+  border-top-left-radius: 34px;
+  padding: 10px;
+  /* background: linear-gradient(45deg, #82572F 5%, #C5904A 45% #E0E761 50%); */
+  background: linear-gradient(135deg, #82572F 5%, #C5904A, #dae06b);
+  /* background: linear-gradient(245deg, #82572F 1%, #855A32 20%, #996A37 22%, #C5904A 40% #E0E761 8%); */
+}
+.describe p{
+  max-width: 100%;
+}
+.describe h3{
+  font-size: 30px;
+}
+.btn-describe{
+  width: 80%;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
